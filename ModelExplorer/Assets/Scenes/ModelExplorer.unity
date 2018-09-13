@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3067894, g: 0.29413754, b: 0.24400935, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,16 +152,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114327679431384006, guid: db5d50d60b0863341be4ce64455775a8,
-        type: 2}
-      propertyPath: Cursor
-      value: 
-      objectReference: {fileID: 1443961692}
     - target: {fileID: 13769112, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 4300020, guid: 82ac801e723c0d7488db324ad4aecd65, type: 3}
+    - target: {fileID: 144294, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 13769112, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1cd726023d95a4d4998aa24e8d4d92d8, type: 2}
+    - target: {fileID: 13749104, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1cd726023d95a4d4998aa24e8d4d92d8, type: 2}
+    m_RemovedComponents:
+    - {fileID: 102143195050451304, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
+    - {fileID: 23590483504070622, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
+    - {fileID: 222673536054300410, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: db5d50d60b0863341be4ce64455775a8, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &431596253
@@ -426,11 +436,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1443961692 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000012943254746, guid: b2db04283121ca74495c2ee000fb4243,
-    type: 2}
-  m_PrefabInternal: {fileID: 1443961691}
 --- !u!1001 &1639502013
 Prefab:
   m_ObjectHideFlags: 0

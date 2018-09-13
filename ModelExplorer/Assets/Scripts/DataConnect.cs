@@ -69,7 +69,7 @@ public class DataConnect : MonoBehaviour
             //newObject.GetComponent<CubeScript>().SetSize(.45f * (1.0f - perc));
             //newObject.GetComponent<CubeScript>().rotateSpeed = .2f + perc * 4.0f;
             //newObject.transform.Find("New Text").GetComponent<TextMesh>().text = Astronaut.AstronautName;//"Hullo Again";
-            newObject.transform.Find("New Text").GetComponent<TextMesh>().text = Astronaut.Mission;
+            //newObject.transform.Find("New Text").GetComponent<TextMesh>().text = Astronaut.Mission;
             i++;
 
             //----------------------
